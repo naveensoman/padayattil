@@ -29,7 +29,7 @@ app.post("/", function(req, res){
     secure: true, // use SSL
     auth: {
         user: 'info@padayattil.com',
-        pass: 'admin@padayattil'
+        pass: process.env.EMAILPASS
     }
 });
 
