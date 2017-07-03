@@ -39,7 +39,7 @@ let mailOptions = {
     to: 'info@padayattil.com', // list of receivers
     subject: 'Message from Contact Form', // Subject line
     text: 'Plain Text Body', // plain text body
-    html: '<h1>  You have a message from the Contact Form </h1><br><hr>' +
+    html: '<h1>  You have a message from the Website </h1><br><hr>' +
           '<h2> Name : ' + req.body.name + '</h2><br>' + 
           '<h2> Email : ' + req.body.email + '</h2><br>' + 
           '<h2> Telephone : ' + req.body.tel + '</h2><br>' + 
