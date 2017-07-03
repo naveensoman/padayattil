@@ -42,7 +42,10 @@ let mailOptions = {
     html: '<h1>  You have a message from the Contact Form </h1><br><hr>' +
           '<h2> Name : ' + req.body.name + '</h2><br>' + 
           '<h2> Email : ' + req.body.email + '</h2><br>' + 
-          '<h2> Message : ' + req.body.message + '</h2><br>' // html body
+          '<h2> Telephone : ' + req.body.tel + '</h2><br>' + 
+          '<h2> Customer Type : ' + req.body.customerType + '</h2><br>' +
+          '<h2> Service Required : ' + req.body.serviceRequired + '</h2><br>' +
+          '<h2> Message : ' + req.body.message + '</h2><br>'// html body
     
 };
 
